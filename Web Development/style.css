@@ -1,0 +1,22 @@
+body {
+    /* global formatting goes here */
+}
+
+
+h1 {
+    color: darkslateblue;
+    font-size: 40px;
+    font-family: sans-serif;    
+}
+
+/*settings can be applied to multiple tags at the same time*/
+h2, h3 {
+    color:dimgray;
+    font-family: cursive;
+    font-weight:lighter
+}
+P {
+    font-size: 18PX;
+    text-align:center;
+    font-family:sans-serif;
+}
