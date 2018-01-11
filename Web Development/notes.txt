@@ -1,0 +1,27 @@
+colors
+
+css can take on RGB, hexadecimal and also transparency (rgba)
+
+(ctrl+e) to pick color with brackets.
+
+classes & ids
+ Useful for applying attributes to only one element (paragraph, header, etc...)
+ 
+ .html: class="some-name-here"
+ .css: .some-name-here {}
+ 
+ ids such as(h1,h2,p, body) are generally not preferred since they affect all instances and you never know what may happen to your code down stream. 
+ Use classes instead.
+ 
+ The css box model
+ 
+ block elements - headers, paragraphs, 
+ inline elements - images, links, strong, underlined, emphasis, etc...
+ Content - p, image, etc...
+ width - width of the content
+ height - height of the content
+ padding -  transparent area between the border and the content
+ border -boundaries of the box
+ margin - space between boxes
+ 
+ use the asterisk (*) to apply attributes to all elements to a page

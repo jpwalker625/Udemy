@@ -1,22 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+
 body {
     /* global formatting goes here */
 }
 
 
 h1 {
-    color: darkslateblue;
+    color: #473d8a;
     font-size: 40px;
-    font-family: sans-serif;    
+    font-family: sans-serif;
+    text-align: center
 }
 
 /*settings can be applied to multiple tags at the same time*/
 h2, h3 {
     color:dimgray;
     font-family: cursive;
-    font-weight:lighter
+    font-weight:lighter;
+    margin-bottom: 10px;
 }
-P {
+.main_text {
     font-size: 18PX;
-    text-align:center;
+    text-align:justify;
     font-family:sans-serif;
+}
+
+.intro_text {
+    font-family: cursive;
+    color: rgba(71, 61, 138, 0.61);
+    text-align: center
+}
+
+.author-text {
+    font-size: 16px;
+    font-style: italic;
 }
