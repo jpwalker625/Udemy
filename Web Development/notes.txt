@@ -25,3 +25,11 @@ classes & ids
  margin - space between boxes
  
  use the asterisk (*) to apply attributes to all elements to a page
+ 
+ **div element - divide** very important  
+ <div class="class name">
+ <div/>
+ 
+ float 
+ 
+ margin: top right bottom left

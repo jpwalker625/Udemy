@@ -5,6 +5,13 @@
     
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 body {
     /* global formatting goes here */
 }
@@ -24,19 +31,68 @@ h2, h3 {
     font-weight:lighter;
     margin-bottom: 10px;
 }
-.main_text {
-    font-size: 18PX;
-    text-align:justify;
-    font-family:sans-serif;
-}
 
 .intro_text {
     font-family: cursive;
     color: rgba(71, 61, 138, 0.61);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main_text {
+    font-size: 18PX;
+    text-align:center;
+    font-family:sans-serif;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(77, 77, 77, 0.69);
+}
+
+.author-box {
+    
+    display: inline-block;
     text-align: center
 }
+
+/* change a single image within a div class */
+.author-box img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
 
 .author-text {
     font-size: 16px;
     font-style: italic;
+}
+
+.blog-post {
+    width: 75%;
+    float: left;
+    position: relative;
+    padding-right: 20px;
+}
+
+.container {
+    /* margin: top right bottom left */
+    margin: 20px auto 0 auto;
+}
+
+.other-posts {
+    width: 25%;
+    float: left;
+}
+
+
+
+.other {
+    margin-bottom: 40px;
+}
+
+.date {
+    /*absolute positioning must be paired with relative positioning in the parent container (in this case the .blog-post class)*/
+   position: absolute;
+    top: 10px;
+    right: 30px;
 }
