@@ -1,5 +1,3 @@
-colors
-
 css can take on RGB, hexadecimal and also transparency (rgba)
 
 (ctrl+e) to pick color with brackets.
@@ -33,3 +31,4 @@ classes & ids
  float 
  
  margin: top right bottom left
+ 
