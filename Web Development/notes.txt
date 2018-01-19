@@ -32,3 +32,12 @@ classes & ids
  
  margin: top right bottom left
  
+ 
+ Responsive Web Design
+ 
+ Fluid grid: layout elemnts size in relative units such as percentages
+ 
+ Flexible images are also laid out with relative units.
+ 
+ Media quieries: allow us to specify different css style rules for different browser widths.
+ 
